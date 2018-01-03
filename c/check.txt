@@ -1,0 +1,25 @@
+ add_one 
+---------
+       6
+(1 row)
+
+ add_one 
+---------
+   6.025
+(1 row)
+
+ makepoint 
+-----------
+ (1,4)
+(1 row)
+
+ copytext 
+----------
+ cat
+(1 row)
+
+ concat_text 
+-------------
+ catdog
+(1 row)
+
