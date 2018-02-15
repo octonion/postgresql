@@ -8,7 +8,7 @@ create or replace function add
 returns int
 as $$
 
-from ctypes import cdll,POINTER,c_int
+from ctypes import cdll,c_int
 
 lib = cdll.LoadLibrary(("/usr/local/lib/postgresql/libadd.so"))
 lib.add.argtypes = [c_int, c_int]
